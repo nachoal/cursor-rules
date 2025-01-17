@@ -1,0 +1,20 @@
+# In ruby on rails projects:
+
+## Modern Rails Conventions
+- Always use the latest Ruby on Rails conventions and best practices
+- Follow Ruby style guide and maintain consistent code formatting
+- Use meaningful and descriptive names for variables, methods, and classes
+
+## Hotwire Integration
+- Use Hotwire (Turbo and Stimulus) as the primary frontend solution
+- Prefer Turbo Frames and Turbo Streams for dynamic updates
+- Minimize JavaScript usage, only add "sprinkles" when necessary
+- Always use Stimulus controllers for JavaScript functionality
+- Always register new Stimulus controllers in index.js
+
+## Code Style
+- Use double quotes for strings unless single quotes are required
+- Add spaces inside array literal brackets [ 1, 2, 3 ] not [1,2,3]
+- Follow standard Ruby indentation (2 spaces)
+- Use snake_case for methods and variables
+- Use CamelCase for classes and modules
